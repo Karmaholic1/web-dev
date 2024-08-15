@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Contact Me</h1>
+    <fieldset>
+      <legend>My Information</legend>
+      <form action="mailto:avenger.nepal@gmail.com?subject=hi" method="post" enctype="text/plain">
+        <label for="mail">Email</label>
+        <input type="email" placeholder="@example.com" name="mail" id="mail" required />
+        <br /><br />
+        <label for="username">Username</label>
+        <input type="username" placeholder="name" name="username" id="username" />
+        <br />
+        <h3>Gender</h3>
+        <label for="male">Male</label>
+        <input type="radio" value="male" id="male" name="gender" />
+        <label for="female">Female</label>
+        <input type="radio" value="Female" id="female" name="gender" />
+        <br />
+        <br />
+        <h3>Hobbies</h3>
+        <label for="dance">Dance</label>
+        <input type="checkbox" id="dance" value="dance" name="hobbies" />
+        <label for="sing">Sing</label>
+        <input type="checkbox" id="sing" value="sing" name="hobbies" />
+        <br />
+        <br />
+        <h3>Select your country</h3>
+        <select name="country" id="country">
+          <option value="nepal">Nepal</option>
+          <option value="india">India</option>
+          <option value="china">China</option>
+          <optgroup label="abc">
+            <option value="a">a</option>
+            <option value="b">b</option>
+            <option value="c">c</option>
+          </optgroup>
+        </select>
+        <br />
+        <br />
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </fieldset>
+  </body>
+</html>

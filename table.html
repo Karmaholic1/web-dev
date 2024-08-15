@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+    <table border="2px" cellspacing="0" cellpadding="20px">
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Phone Number</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>karma</td>
+          <td rowspan="2">boudha</td>
+          <td>9238948953</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>sunil</td>
+          <td>29834734</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>shyam</td>
+          <td>Chabahil</td>
+          <td>9384993493</td>
+        </tr>
+      </tbody>
+    </table>
+    <br /><br />
+    <table border="2px" cellspacing="0" cellpadding="20px">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ajay</td>
+          <td rowspan="2">24</td>
+        </tr>
+        <tr>
+          <td>Priya</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <br>
+    <table border="2px" cellspacing="0" cellpadding="20px">
+      <thead>
+        <tr>
+          <th colspan="2">Language and FrameWorks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>python</td>
+          <td>Django</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Javascript</td>
+          <td>React.js</td>
+        </tr>
+        <tr>
+            <td>Vue.js</td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td>Ruby</td>
+                <td>Ruby on Rails</td>
+            </tr>
+        </tfoot>
+      </tbody>
+    </table>
+    <br><br>
+    <table border="2px" cellspacing="0" cellpadding="20px">
+        <thead>
+            <tr>
+                <th>Header</th>
+                <th>Header</th>
+                <th>Header</th>
+                <th>Header</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="4">Span <br>rows</td>
+                <td colspan="3">Span Columns</td>
+            </tr>
+            <tr>
+                <td colspan="2">Span Columns</td>
+                <td rowspan="3">Span Both</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Span Rows</td>
+                <td>span Columns</td>
+            </tr>
+            <tr>
+                <td>Span Both</td>
+            </tr>
+
+        </tbody>
+    </table>
+  </body>
+</html>
